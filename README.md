@@ -17,6 +17,9 @@
   <a href="https://goreportcard.com/report/github.com/open-telemetry/opentelemetry-collector-contrib">
     <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/open-telemetry/opentelemetry-collector-contrib?style=for-the-badge">
   </a>
+  <a href="https://otel.app.runforesight.com/repositories/github/open-telemetry/opentelemetry-collector-contrib/workflow-runs?branch=main&workflowId=9206023">
+    <img alt="Foresight Test Results" src="https://api-public.service.runforesight.com/api/v1/badge/success?repoId=5c92c2dd-1507-4ed4-9f94-51ef61a374b0&branch=main&workflowName=build-and-test">
+  </a>
   <a href="https://codecov.io/gh/open-telemetry/opentelemetry-collector-contrib/branch/main/">
     <img alt="Codecov Status" src="https://img.shields.io/codecov/c/github/open-telemetry/opentelemetry-collector-contrib?style=for-the-badge">
   </a>
