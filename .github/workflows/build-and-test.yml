@@ -233,7 +233,7 @@ jobs:
         with:
           api_key: ${{ secrets.FORESIGHT_API_KEY }}
           test_framework: golang
-          test_format: json
+          test_format: text
           test_path: |
             ./**/foresight-test*.json
   unittest:
@@ -287,7 +287,7 @@ jobs:
         with:
           api_key: ${{ secrets.FORESIGHT_API_KEY }}
           test_framework: golang
-          test_format: json
+          test_format: text
           test_path: |
             ./**/foresight-test-report-integration*.json
           coverage_format: golang
@@ -331,7 +331,7 @@ jobs:
         with:
           api_key: ${{ secrets.FORESIGHT_API_KEY }}
           test_framework: golang
-          test_format: json
+          test_format: text
           test_path: |
             ./**/foresight-test*.json
   correctness-metrics:
@@ -371,7 +371,7 @@ jobs:
         with:
           api_key: ${{ secrets.FORESIGHT_API_KEY }}
           test_framework: golang
-          test_format: json
+          test_format: text
           test_path: |
             ./**/foresight-test*.json
 
