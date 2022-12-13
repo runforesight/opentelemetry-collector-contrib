@@ -21,7 +21,7 @@ IMPI=impi
 BUILD_TYPE?=release
 RUNNING_ON_GITHUB_ACTION=$(GITHUB_ACTIONS)
 
-ALL_PKG_DIRS := $(shell $(GOCMD) list -f '{{ .Dir }}' ./... | sort)
+ALL_PKG_DIRS := $(shell $(GOCMD) list -f '{{ .Dir }}' ./... | sort -S 50% --parallel=4)
 
 ALL_SRC := $(shell find $(ALL_PKG_DIRS) -name '*.go' \
                                 -not -path '*/third_party/*' \
