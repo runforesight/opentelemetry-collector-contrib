@@ -10,6 +10,7 @@ env:
   # See: https://github.com/actions/cache/issues/810#issuecomment-1222550359
   # Cache downloads for this workflow consistently run in under 1 minute
   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 5
+  FORESIGHT_LOG_LEVEL: debug
 
 # Do not cancel this workflow on main. See https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/16616
 concurrency:
