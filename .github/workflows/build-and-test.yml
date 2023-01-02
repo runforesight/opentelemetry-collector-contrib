@@ -10,7 +10,7 @@ env:
   # See: https://github.com/actions/cache/issues/810#issuecomment-1222550359
   # Cache downloads for this workflow consistently run in under 1 minute
   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 5
-  #FORESIGHT_LOG_LEVEL: debug
+  FORESIGHT_LOG_LEVEL: debug
   FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
   WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.me
 
