@@ -138,7 +138,7 @@ func TestMongodbIntegration(t *testing.T) {
 
 	for _, tt := range testCases {
 		t.Run(tt.name, func(t *testing.T) {
-			t.Skip("Refer to https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/17070")
+			// t.Skip("Refer to https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/17070")
 			t.Parallel()
 			container, endpoint := getContainer(t, tt.container, setupScript)
 			defer func() {
